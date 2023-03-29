@@ -166,6 +166,9 @@ SELECT * FROM us_congress_members
 -- FROM '/private/tmp/data/us_congress_members.csv'
 -- WITH (DELIMITER ',', FORMAT csv, HEADER MATCH);
 
+COPY bills_actions
+FROM '/Users/garryzhu/Desktop/Github/emoryqtm151/Lecture 18/data/bills_actions.csv'
+WITH(DELIMITER ',', FORMAT csv, HEADER MATCH)
 
 
 
